@@ -1,0 +1,29 @@
+/* importing required fonts */
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap");
+
+/* universal style */
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+}
+
+/* style */
+.top-logo {
+   width: 200px;
+}
+.login-signup-btn {
+   background: #4277ff;
+   border-radius: 12px;
+   font-family: "Roboto", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+   text-align: center;
+   color: #ffffff;
+   padding: 15px 25px;
+   border: none;
+}
