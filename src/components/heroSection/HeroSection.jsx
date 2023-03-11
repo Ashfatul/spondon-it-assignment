@@ -14,8 +14,8 @@ export default function HeroSection() {
 
             <button className="view-products-btn">View Products</button>
          </div>
-         <div className="col-md-5">
-            <img src={mainImage} alt="" className="w-100 hero-section-image" />
+         <div className="col-md-5 hero-section-image">
+            <img src={mainImage} alt="" className="w-100" />
          </div>
       </div>
    );
