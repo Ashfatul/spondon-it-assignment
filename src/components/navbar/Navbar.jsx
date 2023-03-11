@@ -3,7 +3,7 @@ import logo from "../../assets/logo.png";
 
 export default function Navbar() {
    return (
-      <header className="container">
+      <header className="container bg-transparent">
          <nav className="navbar navbar-expand-lg navbar-light">
             <div className="container-fluid">
                <a className="navbar-brand" href="/">
