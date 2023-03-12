@@ -5,18 +5,22 @@ import HeroSlider from "./components/heroSlider/HeroSlider";
 import PaymentGateway from "./components/paymentGateway/PaymentGateway";
 import Testimonial from "./components/testimonial/Testimonial";
 import Client from "./components/client/Client";
+import SoftwareCollection from "./components/softwareCollection/SoftwareCollection";
+import DashboardPreview from "./components/dashboardPreview/DashboardPreview";
 
 function App() {
    return (
       <>
-         <div className="hero-section">
+         <div className="hero-section default-bg">
             <Navbar />
             <HeroSection />
             <HeroSlider />
          </div>
-         <PaymentGateway />
+         <PaymentGateway className="default-bg" />
          <Testimonial />
          <Client />
+         <DashboardPreview />
+         <SoftwareCollection />
       </>
    );
 }

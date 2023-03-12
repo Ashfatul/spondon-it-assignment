@@ -11,6 +11,9 @@
    /* background: #eff5fc; */
 }
 
+body {
+   background: #eff5fc;
+}
 /* style */
 .top-logo {
    width: 200px;
@@ -196,4 +199,108 @@ span.hero-text-highlight-2::after {
    line-height: 30px;
    color: #3f4654;
    margin-bottom: 45px;
+}
+
+button.slick-arrow.slick-prev::before,
+button.slick-arrow.slick-next::before {
+   /* color: red; */
+   height: 70px;
+   width: 70px;
+   padding: 10px;
+   background: #4277ff;
+   border-radius: 50%;
+}
+
+.client-list-title {
+   font-family: "Asap";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   color: #3f4654;
+}
+
+.single-client {
+   background: #ffffff;
+   border: 1px solid rgba(63, 70, 84, 0.1);
+   border-radius: 20px;
+}
+
+.slick-slide {
+   padding: 0 10px;
+}
+
+.slick-prev {
+   left: -45px !important;
+}
+
+.slider-container {
+   background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 3.39%,
+      #ffffff 49.96%,
+      rgba(255, 255, 255, 0) 96.54%
+   );
+   padding-top: 35px;
+   padding-bottom: 70px;
+}
+
+.software-collection-section {
+   background: linear-gradient(60.06deg, #4277ff -11.48%, #0657d0 159.3%);
+   border-radius: 10px 0px 0px 10px;
+   padding: 0px;
+   position: relative;
+   margin: 250px 0px;
+}
+
+.margin-left {
+   margin-left: 10%;
+}
+.margin-right {
+   margin-right: 10%;
+}
+
+.man-with-mike {
+   position: absolute;
+   bottom: 20px;
+   right: 5%;
+}
+
+.software-collection-info h4,
+.software-collection-info p {
+   margin: 0;
+}
+
+.software-collection-info p {
+   font-family: "Roboto";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 30px;
+}
+
+.software-collection-info h4 {
+   font-family: "Asap";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 40px;
+   line-height: 46px;
+   color: #ffffff;
+}
+
+.view-all-btn {
+   font-family: "Asap";
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28px;
+   border-radius: 12px;
+   color: #5c6574;
+   background: #ffffff;
+   padding: 15px 25px;
+   border: none;
+}
+
+.vault-image {
+   padding: 60px 0px;
 }
