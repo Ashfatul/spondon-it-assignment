@@ -7,6 +7,7 @@ import Testimonial from "./components/testimonial/Testimonial";
 import Client from "./components/client/Client";
 import SoftwareCollection from "./components/softwareCollection/SoftwareCollection";
 import DashboardPreview from "./components/dashboardPreview/DashboardPreview";
+import Footer from "./components/footer/Footer";
 
 function App() {
    return (
@@ -21,6 +22,7 @@ function App() {
          <Client />
          <DashboardPreview />
          <SoftwareCollection />
+         <Footer />
       </>
    );
 }
