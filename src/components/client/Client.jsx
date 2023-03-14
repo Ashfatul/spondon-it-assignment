@@ -15,6 +15,32 @@ export default function Client() {
       slidesToShow: 4,
       slidesToScroll: 1,
       arrows: true,
+      mobileFirst: true,
+      autoplay: true,
+      responsive: [
+         {
+            breakpoint: 1080,
+            settings: {
+               slidesToShow: 3,
+            },
+         },
+
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 2,
+               arrows: false,
+            },
+         },
+
+         {
+            breakpoint: 520,
+            settings: {
+               slidesToShow: 1,
+               arrows: false,
+            },
+         },
+      ],
       //   prevArrow: <button className="slick-prev">Previous</button>,
       //   nextArrow: <button className="slick-next">Next</button>,
    };

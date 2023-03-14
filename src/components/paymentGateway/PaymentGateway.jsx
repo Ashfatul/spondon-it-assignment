@@ -8,7 +8,7 @@ import jcb from "../../assets/JCB.png";
 
 export default function PaymentGateway() {
    return (
-      <div className="row container mx-auto">
+      <div className="row mx-0 container-fluid padding-container">
          <div className="col-md-7"></div>
          <div className="col-md-5">
             <div className="payment-gateway-container">
@@ -20,12 +20,24 @@ export default function PaymentGateway() {
                         className="card-list-header-img"
                      />
 
-                     <div className="card-image-container d-flex">
-                        <img src={visa} alt="" />
-                        <img src={masterCard} alt="" />
-                        <img src={discover} alt="" />
-                        <img src={americanExpress} alt="" />
-                        <img src={jcb} alt="" />
+                     <div className="card-image-container d-flex flex-wrap">
+                        <img src={visa} alt="" className="mt-2 mt-md tk500" />
+                        <img
+                           src={masterCard}
+                           alt=""
+                           className="mt-2 mt-md tk500"
+                        />
+                        <img
+                           src={discover}
+                           alt=""
+                           className="mt-2 mt-md tk500"
+                        />
+                        <img
+                           src={americanExpress}
+                           alt=""
+                           className=" mt-2 mt-md tk500"
+                        />
+                        <img src={jcb} alt="" className="mt-md-2 m2-0" />
                      </div>
                   </div>
 

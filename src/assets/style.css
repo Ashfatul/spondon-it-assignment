@@ -9,8 +9,20 @@
    margin: 0;
    padding: 0;
    font-family: "Roboto", sans-serif;
-   font-weight: 400;
+   /* font-weight: 400; */
    /* background: #eff5fc; */
+}
+
+.padding-container {
+   padding: 0 10%;
+}
+
+.margin-left {
+   margin-left: 10% !important;
+}
+
+.margin-right {
+   margin-right: 10% !important;
 }
 
 body {
@@ -255,11 +267,11 @@ button.slick-arrow.slick-next::before {
    margin: 250px 0px;
 }
 
-.margin-left {
-   margin-left: 10%;
+.padding-left {
+   padding-left: 10%;
 }
-.margin-right {
-   margin-right: 10%;
+.padding-right {
+   padding-right: 10%;
 }
 
 .man-with-mike {
@@ -489,4 +501,29 @@ footer {
    font-size: 16px;
    line-height: 24px;
    color: #3f4654;
+}
+
+@media (max-width: 520px) {
+   .footer-payment-method {
+      grid-template-columns: repeat(2, 50%);
+      margin: auto;
+   }
+   .hero-section-image {
+      display: none;
+   }
+   .padding-container {
+      padding: 0;
+   }
+   .padding-left {
+      padding: 0 10px;
+   }
+   .padding-right {
+      padding: 0 10px;
+   }
+   .man-with-mike {
+      display: none;
+   }
+   .vault-image {
+      padding: 20px 0;
+   }
 }

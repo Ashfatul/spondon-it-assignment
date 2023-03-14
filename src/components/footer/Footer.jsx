@@ -17,7 +17,7 @@ import visa2 from "../../assets/Visa2.png";
 
 export default function Footer() {
    return (
-      <footer className="margin-right row">
+      <footer className="margin-right row mx-0 margin-right">
          <div className="col-md-5">
             <div className="footer-section-title">About Us</div>
             <div className="about-company">
